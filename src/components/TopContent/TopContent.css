@@ -1,0 +1,55 @@
+.topContent{
+    color: white;
+}
+.topContent__Container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.topContent__Container >h1{
+    font-size: 30px;
+}
+.topContent__Container > p{
+    letter-spacing: 2px;
+    padding-left: 15px 20px;
+}
+.topContent__Container>a >button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+
+}
+.topContent__DownloadButton{
+    color: white;
+   background-color: #f64c08;
+   font-size: 18px;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.topContent__DownloadButton:hover{
+    color:#f64c08;
+    background-color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.topContent__MyworkButton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topContent__MyworkButton:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+
+}

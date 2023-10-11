@@ -1,0 +1,43 @@
+    .skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 700px;
+
+    
+
+}
+.skillContainer__text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width:500px;
+    margin-bottom: 20px;
+}
+.skillContainer__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 60px;
+    justify-content: center;
+}
+.skillContainer__image>img{
+    width: 500px;
+    height: 350px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skillContainer__skillset{
+    width: 450px;
+    height: 25px;
+    font-size: 15px;
+    
+}
+.skillContainer__slider> div > .MuiLinearProgress-barColorPrimary  {
+    background-color: rgb(243, 100, 17);
+    color: brown;
+
+}
+.skillContainer__slider2>div>.MuiLinearProgress-colorPrimary {
+    background-color:green;
+}
