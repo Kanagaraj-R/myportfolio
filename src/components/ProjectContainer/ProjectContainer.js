@@ -6,41 +6,35 @@ import "./ProjectContainer.css"
 
 const ProjectContainer = () => {
     const projects = [
-    {
+            {
         img:"https://github.com/Kanagaraj-R/crud-app/assets/133184925/8b2e5d02-9eac-416d-882c-d218c2ea9ef1",
         title:"My-Portfolio",
         desc:"its used for many people connect to new friends and family",
         link:"www.google.com",
      },
      {
-        img:"",
-        title:"blog",
-        desc:"its i am understanding the frontend programing small blog",
-        link:"",
+        img:"https://github.com/Kanagaraj-R/Weather-App/assets/133184925/ed6050ec-d2a3-4d8a-8d82-2a808b659ad5",
+        title:"Weather-App",
+        desc:"This app used a area what is the climate to show ",
+        link:"https://weathereactjs.netlify.app/",
      },
      {
-        img:"https://github.com/Kanagaraj-R/formvalidation/assets/133184925/7e5ac025-5d0c-4b9b-bc95-68134b8d56a0",
-        title:"Library Management System",
-        desc:"its used for many people connect to new friends and family",
-        link:"www.google.com",
-     },
-     {
-        img:"https://github.com/Kanagaraj-R/crud-app/assets/133184925/47519753-0cc8-40f8-b73d-7a29a834d444",
-        title:"Curd App",
-        desc:"its used for many people connect to new friends and family",
-        link:"https://unique-kleicha-ac8560.netlify.app/",
+        img:"https://github.com/Kanagaraj-R/passwordreset-backend/assets/133184925/1ee63d00-0b3c-4678-a09f-7fa1535d9234",
+        title:"Todo-List",
+        desc:"its used for todo list our programme",
+        link:"https://master--tubular-treacle-d66bd2.netlify.app/",
      },
      {
         img:"https://user-images.githubusercontent.com/133188448/257780758-1dba93a4-6e80-4779-b91e-a3b05a4a9198.png",
-        title:"redux-cart",
-        desc:"its used for select item in cart iincress and decress the cart",
-        link:" https://bespoke-tanuki-18deb9.netlify.app/",
+        title:"Shopping-Cart",
+        desc:"its used for select item in cart incress and decress the cart",
+        link:"https://bespoke-tanuki-18deb9.netlify.app/",
      },
      {
-      img:"https://github.com/Kanagaraj-R/Weather-App/assets/133184925/ed6050ec-d2a3-4d8a-8d82-2a808b659ad5",
-      title:"Weather-App",
-      desc:"its used for  what is the weather position to search",
-      link:"https://weathereactjs.netlify.app/",
+      img:"https://github.com/Kanagaraj-R/formvalidation/assets/133184925/7e5ac025-5d0c-4b9b-bc95-68134b8d56a0",
+      title:"Library Management System",
+      desc:"its library management system",
+      link:" https://regal-pasca-388503.netlify.app/",
    },
      {
         img:"https://github.com/Kanagaraj-R/kanagu-blog/assets/133184925/c4df96cc-8990-4d24-b469-999e82275ad7",
@@ -49,12 +43,11 @@ const ProjectContainer = () => {
         link:"https://resilient-kataifi-7b8aea.netlify.app/",
      },
      {
-        img:"https://github.com/Kanagaraj-R/passwordreset-backend/assets/133184925/1ee63d00-0b3c-4678-a09f-7fa1535d9234",
-        title:"Todo App",
-        desc:"its used for create a name and describe to work ",
-        link:"https://master--tubular-treacle-d66bd2.netlify.app/",
+        img:"https://github.com/Kanagaraj-R/crud-app/assets/133184925/47519753-0cc8-40f8-b73d-7a29a834d444",
+        title:"Curd App",
+        desc:"This app use add delete update the program",
+        link:"https://unique-kleicha-ac8560.netlify.app/",
      },
-
 ];
   return (
     <Element className="projectContainer" id ="projects">
